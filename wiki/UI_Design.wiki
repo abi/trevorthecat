@@ -1,5 +1,7 @@
 #summary Some suggestions for the design of the UI for this site
 
+*Incomplete (going to add mockups and more details tommorow)*
+
 == Transcript of email sent to an interested volunteer (who is busy and unable to work on this at this time) ==
 
 
