@@ -11,7 +11,7 @@ Home page
 
 Types, categories, sub-categories, search must be on the top menu. But the popular/upcoming can be on the sidebar. The sub-categories can be a drop-down menu but I think the Digg-style menu looks ugly. Perhaps, the facebook-style drop down menus will look better as seen in the screenshots. Another really cool way to show sub-categories is on http://www.colourlovers.com/trends but I am not sure if the animation will work out here.
 
-http://img217.imageshack.us/content.php?page=done&l=img217/8136/facebook1vr0.png
+[http://img217.imageshack.us/content.php?page=done&l=img217/8136/facebook1vr0.png]
 
 Forms
 
