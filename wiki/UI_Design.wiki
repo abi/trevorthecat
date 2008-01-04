@@ -1,0 +1,20 @@
+#summary Some suggestions for the design of the UI for this site
+
+== Transcript of email sent to an interested volunteer (who is busy and unable to work on this at this time) ==
+
+
+Functionality is very similar to Digg, Reddit or Mixx.
+
+Possible inspiration can be from Digg, Mixx (Reddit is too ugly). On the whole, I think Digg looks really good except that I find too "heavy" in that everything has a large font and everything is close together. It would be better if the design gave more space between elements so that it looked less heavy than Digg.
+
+Home page
+
+Types, categories, sub-categories, search must be on the top menu. But the popular/upcoming can be on the sidebar. The sub-categories can be a drop-down menu but I think the Digg-style menu looks ugly. Perhaps, the facebook-style drop down menus will look better as seen in the screenshots. Another really cool way to show sub-categories is on http://www.colourlovers.com/trends but I am not sure if the animation will work out here.
+
+Forms
+
+I like http://lipidity.com/fancy-form/#example, http://dnevnikeklektika.com/uni-form/ or wufoo.com but anything that looks good is fine. Instructions must be allowed for the user beside the field ( i.e. there must be some text beside every field to tell the user how to fill up this field like "passwords must be between 6 and 8 characters").
+
+Besides these two pages, there are two more important page types -- profile page and story summary page. I will pass you mockups of that as soon as I can. 
+
+http://mail.google.com/mail/?realattid=f_fa9s2ymm&attid=0.1&disp=inline&view=att&th=116e3bed6e6ce37f
