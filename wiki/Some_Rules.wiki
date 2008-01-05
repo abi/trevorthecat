@@ -4,9 +4,16 @@
 
   * Refer to Newsvine code of honour (http://www.newsvine.com/_cms/info/codeofhonor)
 
+= Authority system =
+
+  * Points given based on contribution
+
 = Feature addition rules & procedure =
 
   * Passed by users (rules, mininum number of votes or percentage of community?)
+     - Minimum authority to vote
+     - Votes weighted by authority (by bands)
+
   * Avoiding feature bloat (how?)
 
 = Rules/ procedure to ban users =
