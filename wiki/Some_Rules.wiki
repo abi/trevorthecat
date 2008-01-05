@@ -13,6 +13,7 @@
   * Passed by users (rules, mininum number of votes or percentage of community?)
      - Minimum authority to vote
      - Votes weighted by authority (by bands)
+     - Features need minimum number of votes to be passed
 
   * Avoiding feature bloat (how?)
 
