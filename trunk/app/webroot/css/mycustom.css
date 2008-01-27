@@ -1,0 +1,318 @@
+body       { background:transparent url(../img/innerwrapper.jpg) repeat-x scroll center top; }
+ol         { padding-left: 20px;  }
+.toc       { background: #B4AF91; }
+.toc a     { color: #32331D;      }
+label      { display: block;      }
+p.buttons  { padding: 1	0px 0px 10px 70px;  }
+.smallh{ margin-bottom: 0pt; }
+.floatright{ float:right;}
+.votes{
+	
+	margin-bottom:0.2em;
+}
+
+.karma{
+	
+	margin-bottom:0.2em;
+	margin-top:0.8em;
+}
+
+#header{
+	
+	margin-bottom: 1.7em;
+	
+}
+
+.container{
+	
+	padding: 10pt;
+	background: transparent;
+}
+
+.photo{
+	background: lightSteelBlue none repeat scroll 0% 0%;
+	border:1px solid lightSteelBlue;
+	padding:5px;
+	
+}
+
+a.sort-active{
+	background-color: #336699;
+	color: white;
+}
+
+.about{
+	background-color: lightYellow;
+}
+
+.vote_up{
+	margin-left:5px;
+}
+input.search-box{
+	width: 200px;
+}
+
+.story-title{
+	
+	margin-bottom: 8px;
+	text-decoration:none;
+}
+.story-title:hover{
+	
+	color:blue;
+	text-decoration:none;
+	
+}
+
+.story-info{
+	
+	margin-bottom: 5px;
+}
+
+.story-desc{
+	margin-bottom: 5px;
+}
+
+span.story-action{
+	
+	margin-bottom: 5px;
+	padding-bottom: 2pt;
+}
+
+a.comment-link{
+	
+	background: transparent url(../img/comment.png) no-repeat scroll 0% 0%;
+	padding-left: 20px;
+	text-decoration: none;
+}
+
+a.share-link{
+	background: transparent url(../img/share.png) no-repeat scroll 0% 0%;
+	padding-left: 20px;
+	text-decoration: none;
+	
+}
+
+a.report-link{
+	background: transparent url(../img/report.png) no-repeat scroll 0% 0%;
+	padding-left: 20px;
+	text-decoration: none;
+	
+}
+
+img.avatar-small{
+	
+	margin: 0pt;
+	vertical-align:text-bottom;
+	
+}
+
+a.avatar-username{
+	text-decoration: none;
+	color: #444444;
+}
+
+span.story-popular{
+	color:red;
+}
+
+.comment-body{
+	
+	width:100%;
+	padding-left: 10px;
+	margin-bottom: 4px;
+	
+}
+
+.comment-header{
+	
+	background-color:Gainsboro;
+	width:100%;
+	margin-bottom: 2px;
+	margin-top: 2px;
+	padding-bottom: 3px;
+	padding-top: 3px;
+	padding-left: 5px;
+	
+}
+
+.comment-text{
+	margin: 0pt;
+}
+
+.comment{
+	
+	width:100%;
+}
+
+.comment-up{
+	
+	margin: 0pt;
+	vertical-align: text-bottom;
+}
+#comments{
+	
+	padding-top: 50px;
+	
+}
+
+.comment-actions{
+	padding-left: 10px;
+}
+
+.reply-box{
+	height:80px;
+	width: 100% ;
+}
+
+a.reply-button{
+	float:right;
+}
+
+#recently-voted ul{
+	
+	list-style-type: none;
+	margin: 0pt;
+}
+
+h4.sidebar-action{
+	margin:11px;
+}
+
+.avatar-large{
+	
+	margin:0pt;
+	border:6px solid lightblue;
+}
+
+.message-body{
+	
+	color: #444444;
+	margin-bottom: 5px;
+	font-size:11px;
+}
+
+input.submit-link{
+	
+	width:700px;
+}
+
+input.submit-title{
+	
+	width:700px;
+}
+
+textarea.submit-desc{
+	
+	width:700px;
+	height: 120px;
+}
+
+a.friend-button{
+	text-align:center;
+	width:210px;
+}
+
+a.nav-button{
+	text-align:center;
+	width:210px;
+}
+
+a.nav-button-active{
+	text-align:center;
+	width:210px;
+	background:#529214;
+	color:white;
+}
+
+a.nav-button-active:hover{
+	text-align:center;
+	width:210px;
+	background:#529214;
+	color:white;
+}
+
+a.reply-button{
+	text-align:center;
+	width:100px;
+	background:#000000;
+	
+}
+
+
+textarea.send_message_box{
+	
+	width:300px;
+	height:200px;
+}
+
+
+.sidebar-content { 
+	margin: 0 8px; 
+	height: 100%;
+}
+
+
+/* navigation list from listamatic*/
+#navcontainer
+{
+margin: 0px 0px 10px 0px;
+padding: 0;
+height: 30px;
+}
+
+#navcontainer ul
+{
+border: 0;
+margin: 0;
+padding: 0;
+list-style-type: none;
+text-align: center;
+}
+
+#navcontainer ul li
+{
+display: block;
+float: left;
+text-align: center;
+padding: 0;
+margin: 0;
+}
+
+#navcontainer ul li a
+{
+background: white;
+width: 100%;
+height: 25px;
+border-top: 1px solid white;
+border-left: 1px solid white;
+border-bottom: 1px solid white;
+border-right: 1px solid white;
+padding: 0;
+margin: 0 30px 0px 0;
+color: black;
+text-decoration: none;
+display: block;
+text-align: center;
+font: normal 14px/18px "Lucida Grande", "Lucida Sans Unicode", verdana, lucida, sans-serif;
+line-height: 22px;
+}
+
+#navcontainer ul li a:hover
+{
+color: white;
+background: #333399;
+}
+
+#navcontainer a:active
+{
+background: #333399;
+color: #fff;
+}
+
+#navcontainer li#active a
+{
+background: #3366CC;
+border: 1px solid #3366CC;
+color: #fff;
+}

@@ -1,0 +1,101 @@
+body {
+	font: 78.5%/1.6em "Lucida Grande", "Lucida Sans Unicode", verdana, geneva, sans-serif;
+	word-spacing:2px;
+	color:#444;
+	margin: 20px;
+	margin-top:0px;
+	/*background:url(../images/body.jpg) #f6f6f6;*/
+}
+
+
+#wrapper {
+	background:#fff;
+	border:3px solid #f1f1f1;
+}
+
+
+#innerwrapper {
+	margin:1px;
+	background:url(../images/innerwrapper.jpg) top repeat-x;
+	padding:20px;
+}
+
+
+
+#header #nav {
+	clear:both;
+	background:url(../images/nav.jpg) top repeat-x #4F9EC9;
+	border-bottom:2px solid #4F9EC9;
+	border-top:2px solid #388CBA;
+	border-left:2px solid #388CBA;
+	border-right:2px solid #388CBA;
+	padding:10px 10px 10px 0 !important;
+	padding:4px 10px 10px 0;
+	margin: 0pt;
+}
+
+#header a em {
+	font-style:normal;
+	text-decoration:underline;
+}
+
+#header #nav a {
+	color:#fff;
+	font:140% Trebuchet MS;
+	text-decoration:none;
+	padding:10px;
+}
+
+#header #nav a:hover {
+	background:#4F9EC9;
+}
+
+#header #nav a.active {
+	background:#4F9EC9;
+}
+
+#header #nav li {
+	display:inline;
+	list-style:none;
+	margin:0 1px 0 0;
+}
+
+#header #subnav {
+	background:#4F9EC9;
+	padding:5px 7px 7px 7px;
+	font:90% Verdana;
+	color:#DEEDF5;
+	border-bottom:2px solid #388CBA;
+	border-left:2px solid #388CBA;
+	border-right:2px solid #388CBA;
+	margin: 0pt;
+	
+}
+
+#header #subnav li {
+	list-style:none;
+	display:inline;	
+	
+}
+
+#header #subnav a {
+	color:#DEEDF5;
+	text-decoration:none;
+	font:100% Verdana;
+	padding:5px;
+	border-bottom:2px solid #4F9EC9;
+	
+}
+
+#header #subnav a:hover {
+	border-bottom:2px solid #388CBA;
+	color:#fff;
+}
+
+#header #subnav a.active {
+	border-bottom:2px solid #388CBA;
+	color:#fff;
+}
+
+
+
