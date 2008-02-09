@@ -4,6 +4,7 @@
 
 http://abcdefu.wordpress.com/2007/12/01/open-social-media/
 
+Demo: http://expose.pandoria.com
 
 == Technical Details ==
 
