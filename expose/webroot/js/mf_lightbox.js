@@ -198,7 +198,7 @@ var Lightbox = {
 	init : function() {				  
 		var lightboxtext = '<div id="overlay" style="display:none"></div>';
 		lightboxtext += '<div id="box" style="display:none">';
-		lightboxtext += '<img id="close" src="http://localhost/stuff/expose/img/close.gif" onClick="Lightbox.hideBox()" alt="Close" title="Close this window" />';
+		lightboxtext += '<img id="close" src="../img/close.gif" onClick="Lightbox.hideBox()" alt="Close" title="Close this window" />';
 		lightboxtext += '<div id="boxContents"></div>';
 		lightboxtext += '</div>';
 		var body = document.getElementsByTagName("body").item(0);
