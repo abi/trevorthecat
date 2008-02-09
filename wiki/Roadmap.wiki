@@ -4,13 +4,13 @@
 
 Brief description of this release
 
----- 
+----
 
 = Milestone: 1.1.x =
 
 Brief description of this release
 
----- 
+----
 
 = Milestone: 1.0.x =
 
