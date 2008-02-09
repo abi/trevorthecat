@@ -20,7 +20,7 @@ class VotesController extends AppController
         						"Vote.content_type" => $content_type
         						);
         	
-        	$userVote = $this->Vote->findCount($conditions);
+        	$userVote = $this->Vote->find('count', array('conditions' => $conditions));
 			
 			//if the user has voted before, get the vote type
 			$userVoteType = false;

@@ -15,7 +15,7 @@ class Category extends AppModel
         	if($parentId == 0){
         	
 				//get of list of subcategories that have this super-category as parent
-        		$listId = $this->findAll(array('Category.parent_id'=> $id),'id');
+        		$listId = $this->find('all', array('conditions' => array('Category.parent_id'=> $id), 'fields' => 'id'));
         		$categoryIdList = $this->convertListSQL($listId, 'Category', 'id');
         		return "Story.category_id IN $categoryIdList";
 

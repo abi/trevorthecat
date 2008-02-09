@@ -99,7 +99,7 @@ class Story extends AppModel
         
         $conditions = "Category.id = $data AND Category.parent_id > 0";
                         
-        if( $this->Category->findCount($conditions) > 0)
+        if( $this->Category->find('count', array('conditions' => $conditions)) > 0)
         {
             $valid = true;
         }

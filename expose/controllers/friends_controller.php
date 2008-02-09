@@ -41,7 +41,7 @@ class FriendsController extends AppController
 				
 		//get array of friends
 		$conditions = "Friend.user_id = " . $this->Auth->user('id');
-		$friends = $this->Friend->findAll($conditions);
+		$friends = $this->Friend->find('all', array('conditions' => $conditions));
 		
 		//get stories by this group of friends
 		$sql = $this->Story->getByUserSQL( $sort , $friends);

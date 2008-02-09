@@ -81,7 +81,7 @@ class Vote extends AppModel
 	function getVotes ( $type, $id, $content_type){
 		
         $conditions = "Vote.content_id = $id AND Vote.type = '$type' AND Vote.content_type = '$content_type'";
-        return $this->findCount($conditions);
+        return $this->find('count', array('conditions' => $conditions));
 
 	}
    

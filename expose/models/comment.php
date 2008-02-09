@@ -64,7 +64,7 @@ class Comment extends AppModel
      
         $conditions = "Comment.id = $parent_id";
                         
-        if( $this->findCount($conditions) > 0)
+        if( $this->find('count', array('conditions' => $conditions)) > 0)
         {
             $valid = true;
         }

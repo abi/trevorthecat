@@ -41,7 +41,7 @@ class Message extends AppModel
 
         $conditions = "User.id = $data";
                         
-        if( $this->Sender->findCount($conditions) > 0)
+        if( $this->Sender->find('count', array('conditions' => $conditions)) > 0)
         {
             $valid = true;
         }
