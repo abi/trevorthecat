@@ -1,0 +1,11 @@
+#Milestone goals in descending order
+
+= Milestone: 1.0 =
+
+Add your content here.
+
+
+=== Main Goals for the Release===
+
+  * Add RSS feeds
+  * Edit this to add goals / features
