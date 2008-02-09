@@ -1,4 +1,4 @@
-#Milestone goals in descending order
+#summary Milestone goals in descending order
 
 = Milestone: 1.0 =
 
