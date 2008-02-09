@@ -1,0 +1,7 @@
+#summary One-sentence summary of this page.
+
+== Milestone 1.0 Alpha ==
+
+= Main Features and Goals for the Release =
+
+  * Add RSS feeds
