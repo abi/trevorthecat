@@ -75,7 +75,7 @@ class UsersController extends AppController
 		
 		//get profile and viewer-user relationships to display relevant buttons (like add as friend, remove friend, etc.)
 		$conditions = "Profile.user_id = $id";
-		$this->set('profile', $this->Profile->find($conditions));
+		$this->set('profile', $this->Profile->find('first', array('conditions' => $conditions)));
 		$this->set('friend', $this->Friend->isFriend($id, $this->Auth->user('id')));
 		$this->set('follower', $this->Friend->isFollower($id, $this->Auth->user('id')));
 		$this->set('you', ($this->Auth->user('id') == $id));
@@ -93,7 +93,7 @@ class UsersController extends AppController
 	function friends( $id ){
 		
 		$conditions = "Friend.user_id = $id";
-		$this->set('friends', $this->Friend->findAll($conditions));
+		$this->set('friends', $this->Friend->find('all', array('conditions' => $conditions)));
 		$this->set('friend_page', $id == $this->Auth->user('id'));
 		$this->set('type', 'Friend');
 		
@@ -108,7 +108,7 @@ class UsersController extends AppController
 	function followers( $id ){
 		
 		$conditions = "Friend.friend_id = $id";
-		$this->set('friends', $this->Friend->findAll($conditions));
+		$this->set('friends', $this->Friend->find('all', array('conditions' => $conditions)));
 		$this->set('header', 2);
 		$this->set('friend_page', false);
 		$this->set('type', 'Follower');

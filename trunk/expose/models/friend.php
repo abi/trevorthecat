@@ -55,7 +55,7 @@ class Friend extends AppModel
 
         $conditions = "User.id = $data";
                         
-        if( $this->Friend_user->findCount($conditions) > 0)
+        if( $this->Friend_user->find('count', array('conditions' => $conditions)) > 0)
         {
             $valid = true;
         }
@@ -67,7 +67,7 @@ class Friend extends AppModel
 	function isFriend($id, $user_id){
 		
 		$conditions = "Friend.user_id = " . $user_id . " AND Friend.friend_id =" . $id;
-		$isFriend = $this->findCount($conditions);
+		$isFriend = $this->find('count', array('conditions' => $conditions));
 		
 		if($isFriend == 0){
 			return false;
@@ -80,7 +80,7 @@ class Friend extends AppModel
 	function isFollower($id, $user_id){
 		
 		$conditions = "Friend.user_id = " . $id . " AND Friend.friend_id =" . $user_id;
-		$isFriend = $this->findCount($conditions);
+		$isFriend = $this->find('count', array('conditions' => $conditions));
 		
 		if($isFriend == 0){
 			return false;

@@ -98,7 +98,7 @@ class User extends AppModel
                 
         $conditions = "User.$fieldName = '$data'";
 
-        if($this->findCount($conditions) > 0)
+        if($this->find('count', array('conditions' => $conditions)) > 0)
         {
             $valid = false;
         }

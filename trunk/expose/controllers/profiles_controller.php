@@ -25,7 +25,7 @@ class ProfilesController extends AppController
 
        	 }else{
 					$conditions = "Profile.user_id = " . $this->Auth->user('id');
-					$this->set('profile', $this->Profile->find($conditions));	
+					$this->set('profile', $this->Profile->find('first', array('conditions' => $conditions)));	
 		}
 		
 	}
