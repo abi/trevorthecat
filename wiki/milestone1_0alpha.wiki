@@ -1,5 +1,3 @@
-= Milestone 1.0 Alpha =
-
-=== Main Features and Goals for the Release ===
+= Milestone 1.0 Alpha Goals =
 
   * Add RSS feeds
